@@ -625,7 +625,7 @@ class ContactPhotoManagerImpl extends ContactPhotoManager implements Callback {
                 Canvas canvas = new Canvas(bitmap);
                 Paint paint = new Paint();
                 paint.setTextSize(16);
-                paint.setColor(Color.BLUE);
+                paint.setColor(Color.RED);
                 paint.setStyle(Style.FILL);
                 canvas.drawRect(0.0f, 0.0f, 50.0f, 20.0f, paint);
                 paint.setColor(Color.WHITE);
